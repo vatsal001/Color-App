@@ -1,0 +1,25 @@
+export default {
+  display: {
+    width: " 20%",
+    height: " 25%",
+    cursor: " pointer",
+    display: "inline-block",
+    position: "relative",
+    margin: "0 auto",
+    marginBottom: "-3.5px",
+    // backgroundColor: (props) => props.color,
+  },
+  boxContent: {
+    position: "absolute",
+    left: " 0px",
+    bottom: "0px",
+    textTransform: " uppercase",
+    fontSize: " 12px",
+    color: "darkred",
+    letterSpacing: "1px",
+    padding: " 10px",
+    width: " 100%",
+    display: "flex",
+    justifyContent: "space-between",
+  },
+};

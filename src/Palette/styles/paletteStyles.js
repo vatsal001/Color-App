@@ -1,0 +1,38 @@
+export default {
+  Palette: {
+    height: " 100vh",
+    display: "flex",
+    flexDirection: "column",
+  },
+  paletteColor: {
+    height: " 90%",
+  },
+  goBack: {
+    width: " 20%",
+    height: "50%",
+    cursor: " pointer",
+    display: "inline-block",
+    position: "relative",
+    margin: "0 auto",
+    marginBottom: "-3.5px",
+    backgroundColor: "lime",
+    opacity: " 1",
+    "& a": {
+      width: " 100px",
+      height: " 30px",
+      position: "absolute",
+      display: " inline-block",
+      cursor: "pointer",
+      top: "40%",
+      left: "40%",
+      outline: " none",
+      backgroundColor: "rgba(255, 255, 255, 0.3)",
+      color: "azure",
+      fontSize: "1rem",
+      lineHeight: " 20px",
+      textTransform: " uppercase",
+      border: "none",
+      opacity: "1",
+    },
+  },
+};
